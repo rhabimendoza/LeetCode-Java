@@ -1,4 +1,4 @@
-class Solution {
+class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         
         // Start of Solution
@@ -6,7 +6,6 @@ class Solution {
         String word = words[words.length - 1];
 
         return word.length();
-
         // End of Solution
 
     }
